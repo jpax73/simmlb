@@ -55,7 +55,7 @@ from matplotlib.ticker import FuncFormatter
 #    ax.set_title('Salaries - Wins: '+ str(year), fontsize=25, fontweight='bold')
 #    plt.show()
 
-# JB to test 2008-2013 Tams.csv data only in py
+# JB to test 2008-2013 Teams.csv data only in py
 
  def main():	
 

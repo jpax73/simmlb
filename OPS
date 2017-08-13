@@ -59,7 +59,7 @@ from matplotlib.ticker import FuncFormatter
 
  def main():	
 
-	teams = pd.read_csv('../data/Teams.csv')
+	teams = pd.read_csv('Teams.csv')
 
 	teams = teams[teams['yearID'] >= 1985]
 	teams = teams[['yearID', 'teamID', 'Rank', 'R', 'RA', 'G', 'W', 'H', 'BB', 'HBP', 'AB', 'SF', 'HR', '2B', '3B']]
